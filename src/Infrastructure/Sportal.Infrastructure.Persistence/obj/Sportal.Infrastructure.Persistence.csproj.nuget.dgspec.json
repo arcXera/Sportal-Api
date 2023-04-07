@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/viral/Desktop/sapi/src/Infrastructure/Sportal.Infrastructure.Persistence/Sportal.Infrastructure.Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/Sportal.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/Sportal.Models.csproj",
+        "projectName": "Sportal.Models",
+        "projectPath": "/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/Sportal.Models.csproj",
+        "packagesPath": "/Users/viral/.nuget/packages/",
+        "outputPath": "/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viral/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/mydatamyconsent/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JsonSchema.Net": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.5, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "TanvirArjel.CustomValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/viral/Desktop/sapi/src/Core/Sportal.Application/Sportal.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viral/Desktop/sapi/src/Core/Sportal.Application/Sportal.Application.csproj",
+        "projectName": "Sportal.Application",
+        "projectPath": "/Users/viral/Desktop/sapi/src/Core/Sportal.Application/Sportal.Application.csproj",
+        "packagesPath": "/Users/viral/.nuget/packages/",
+        "outputPath": "/Users/viral/Desktop/sapi/src/Core/Sportal.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viral/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/mydatamyconsent/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/Sportal.Models.csproj": {
+                "projectPath": "/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/Sportal.Models.csproj"
+              },
+              "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/Sportal.Domain.csproj": {
+                "projectPath": "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/Sportal.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Duende.IdentityServer": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "TanvirArjel.EFCore.GenericRepository": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "TanvirArjel.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/Sportal.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/Sportal.Domain.csproj",
+        "projectName": "Sportal.Domain",
+        "projectPath": "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/Sportal.Domain.csproj",
+        "packagesPath": "/Users/viral/.nuget/packages/",
+        "outputPath": "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viral/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/mydatamyconsent/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "TanvirArjel.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/viral/Desktop/sapi/src/Infrastructure/Sportal.Infrastructure.Persistence/Sportal.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/viral/Desktop/sapi/src/Infrastructure/Sportal.Infrastructure.Persistence/Sportal.Infrastructure.Persistence.csproj",
+        "projectName": "Sportal.Infrastructure.Persistence",
+        "projectPath": "/Users/viral/Desktop/sapi/src/Infrastructure/Sportal.Infrastructure.Persistence/Sportal.Infrastructure.Persistence.csproj",
+        "packagesPath": "/Users/viral/.nuget/packages/",
+        "outputPath": "/Users/viral/Desktop/sapi/src/Infrastructure/Sportal.Infrastructure.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/viral/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/mydatamyconsent/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/viral/Desktop/sapi/src/Core/Sportal.Application/Sportal.Application.csproj": {
+                "projectPath": "/Users/viral/Desktop/sapi/src/Core/Sportal.Application/Sportal.Application.csproj"
+              },
+              "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/Sportal.Domain.csproj": {
+                "projectPath": "/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/Sportal.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Audit.EntityFramework.Core": {
+              "target": "Package",
+              "version": "[20.0.3, )"
+            },
+            "Audit.EntityFramework.Identity.Core": {
+              "target": "Package",
+              "version": "[20.0.3, )"
+            },
+            "Audit.Mvc.Core": {
+              "target": "Package",
+              "version": "[20.0.3, )"
+            },
+            "Audit.NET.PostgreSql": {
+              "target": "Package",
+              "version": "[20.0.3, )"
+            },
+            "Audit.WebApi.Core": {
+              "target": "Package",
+              "version": "[20.0.3, )"
+            },
+            "Duende.IdentityServer.AspNetIdentity": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "Duende.IdentityServer.EntityFramework": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "Duende.IdentityServer.Storage": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "TanvirArjel.EFCore.GenericRepository": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

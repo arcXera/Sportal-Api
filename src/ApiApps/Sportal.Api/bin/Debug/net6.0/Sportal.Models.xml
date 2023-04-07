@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sportal.Models</name>
+    </assembly>
+    <members>
+        <member name="T:Sportal.Models.ActivityLogResponseModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.MaleInn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.FemaleInn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.ChildrenInn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.VehicleInn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.MaleOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.FemaleOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.ChildrenOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sportal.Models.ActivityLogResponseModel.VehicleOut">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

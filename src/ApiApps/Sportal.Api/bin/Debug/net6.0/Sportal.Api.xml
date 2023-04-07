@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sportal.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Sportal.Api.Controllers.AdminDashboardController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sportal.Api.Controllers.AdminDashboardController.#ctor(Sportal.Application.Services.AdminDashboardService)">
+            <summary>
+            
+            </summary>
+            <param name="adminDashboardService"></param>
+        </member>
+        <member name="M:Sportal.Api.Controllers.AdminDashboardController.GetActivityLog(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="departmentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sportal.Api.Controllers.ApiController.BadRequest(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>
+                Bad request object result.
+            </summary>
+            <param name="modelState">Model state dictionary.</param>
+            <returns>Bad request if successful.</returns>
+        </member>
+        <member name="M:Sportal.Api.Controllers.ApiController.StatusCode(System.Int32,System.String)">
+            <summary>
+                Get status code of API errors.
+            </summary>
+            <param name="statusCode">Action result status code.</param>
+            <param name="message">Model message.</param>
+            <returns>Status code.</returns>
+        </member>
+        <member name="T:Sportal.Api.Controllers.DepartmentController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sportal.Api.Controllers.DepartmentController.#ctor(Sportal.Application.Services.DepartmentService)">
+            <summary>
+            
+            </summary>
+            <param name="departmentService"></param>
+        </member>
+        <member name="M:Sportal.Api.Controllers.DepartmentController.GetDepartments">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sportal.Api.Controllers.DepartmentController.Entry(Sportal.Models.EntryRequestModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sportal.Api.Controllers.DepartmentController.Entry(Sportal.Models.ExitRequestModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sportal.Api.Controllers.UserAuthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sportal.Api.Controllers.UserAuthController.#ctor(Sportal.Application.Services.UserService,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="userService"></param>
+            <param name="config"></param>
+        </member>
+        <member name="M:Sportal.Api.Controllers.UserAuthController.LoginWithUserNameAndPassword(Sportal.Models.LoginRequestModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sportal.Application</name>
+    </assembly>
+    <members>
+        <member name="M:Sportal.Application.Utils.GuidBase64.Decode(System.String)">
+            <summary>
+                Decode Guid Base
+            </summary>
+            <param name="value"></param>
+            <returns>Guid</returns>
+        </member>
+    </members>
+</doc>

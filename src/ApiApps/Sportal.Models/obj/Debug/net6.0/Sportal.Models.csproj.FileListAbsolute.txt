@@ -1,0 +1,14 @@
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/bin/Debug/net6.0/Sportal.Models.deps.json
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/bin/Debug/net6.0/Sportal.Models.dll
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/bin/Debug/net6.0/Sportal.Models.pdb
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/bin/Debug/net6.0/Sportal.Models.xml
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.csproj.AssemblyReference.cache
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.AssemblyInfoInputs.cache
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.AssemblyInfo.cs
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.csproj.CoreCompileInputs.cache
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.dll
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/refint/Sportal.Models.dll
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.xml
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/Sportal.Models.pdb
+/Users/viral/Desktop/sapi/src/ApiApps/Sportal.Models/obj/Debug/net6.0/ref/Sportal.Models.dll

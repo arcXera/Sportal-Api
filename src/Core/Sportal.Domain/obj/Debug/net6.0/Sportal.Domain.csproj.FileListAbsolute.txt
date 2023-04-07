@@ -1,0 +1,14 @@
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/bin/Debug/net6.0/Sportal.Domain.deps.json
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/bin/Debug/net6.0/Sportal.Domain.dll
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/bin/Debug/net6.0/Sportal.Domain.pdb
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/bin/Debug/net6.0/Sportal.Domain.xml
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.csproj.AssemblyReference.cache
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.AssemblyInfoInputs.cache
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.AssemblyInfo.cs
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.csproj.CoreCompileInputs.cache
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.dll
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/refint/Sportal.Domain.dll
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.xml
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/Sportal.Domain.pdb
+/Users/viral/Desktop/sapi/src/Core/Sportal.Domain/obj/Debug/net6.0/ref/Sportal.Domain.dll
